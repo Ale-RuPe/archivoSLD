@@ -6,6 +6,7 @@
       <se:Name>estaciones_metro</se:Name>
       <se:FeatureTypeStyle>
 
+
         <se:Rule>
           <se:Name>stop_name is ''</se:Name>
           <se:Description>
@@ -42,17 +43,25 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_A_metro_cdmx/Acatitla.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_A_metro_cdmx/Acatitla.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#28d699</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -70,45 +79,61 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_8_metro_cdmx/Aculco.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_8_metro_cdmx/Aculco.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#1313dd</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
 
         <se:Rule>
-          <se:Name>Agrí­cola Oriental</se:Name>
+          <se:Name>Agrícola Oriental</se:Name>
           <se:Description>
-            <se:Title>Agrí­cola Oriental</se:Title>
+            <se:Title>Agrícola Oriental</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Agrí­cola Oriental</ogc:Literal>
+              <ogc:Literal>Agrícola Oriental</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_A_metro_cdmx/AgricolaOriental.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_A_metro_cdmx/AgricolaOriental.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#24abe9</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -154,17 +179,25 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_8_metro_cdmx/Apatlaco.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_8_metro_cdmx/Apatlaco.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#b985e1</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -182,17 +215,25 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_7_metro_cdmx/AquilesSerdan.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_7_metro_cdmx/AquilesSerdan.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#6fc87b</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -212,7 +253,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_5_metro_cdmx/Aragon.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_5_metro_cdmx/Aragon.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -239,55 +280,39 @@
             <se:Title>Atlalilco</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Atlalilco</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Atlalilco%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_8_metro_cdmx/Atlalilco.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_8_metro_cdmx/Atlalilco.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#5b74e0</se:SvgParameter>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
 
-        <se:Rule>
-          <se:Name>Atlalilco_1</se:Name>
-          <se:Description>
-            <se:Title>Atlalilco_1</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Atlalilco_1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#ce231d</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>7</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
 
         <se:Rule>
           <se:Name>Auditorio</se:Name>
@@ -302,17 +327,25 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_7_metro_cdmx/Auditorio.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_7_metro_cdmx/Auditorio.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#49ea77</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -332,7 +365,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_5_metro_cdmx/autobuses_norte.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_5_metro_cdmx/autobuses_norte.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -348,7 +381,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -368,7 +401,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_6_metro_cdmx/Azcapotzalco.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_6_metro_cdmx/Azcapotzalco.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -384,7 +417,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -486,73 +519,64 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_7_metro_cdmx/BarrancaDelMuerto.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_7_metro_cdmx/BarrancaDelMuerto.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#e7ef6c</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
 
         <se:Rule>
-          <se:Name>Bellas Artes_1</se:Name>
+          <se:Name>Bellas Artes</se:Name>
           <se:Description>
-            <se:Title>Bellas Artes_1</se:Title>
+            <se:Title>Bellas Artes</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Bellas Artes_1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Bellas Artes%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_8_metro_cdmx/BellasArtes.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_8_metro_cdmx/BellasArtes.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#902cd2</se:SvgParameter>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-
-        <se:Rule>
-          <se:Name>Bellas Artes_1_2</se:Name>
-          <se:Description>
-            <se:Title>Bellas Artes_1_2</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Bellas Artes_1_2</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#57dedc</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -600,7 +624,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_4_metro_cdmx/bondojito.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_4_metro_cdmx/bondojito.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -616,7 +640,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -718,45 +742,64 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_7_metro_cdmx/Camarones.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_7_metro_cdmx/Camarones.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#53dfb3</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
 
         <se:Rule>
-          <se:Name>Canal de San Juan_1_3</se:Name>
+          <se:Name>Canal de San Juan</se:Name>
           <se:Description>
-            <se:Title>Canal de San Juan_1_3</se:Title>
+            <se:Title>Canal de San Juan</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Canal de San Juan_1_3</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Canal de San Juan%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_A_metro_cdmx/CanalDeSanJuan.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_A_metro_cdmx/CanalDeSanJuan.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#7d6bd0</se:SvgParameter>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -776,7 +819,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_4_metro_cdmx/canal_norte.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_4_metro_cdmx/canal_norte.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -792,7 +835,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -812,7 +855,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_4_metro_cdmx/candelaria.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_4_metro_cdmx/candelaria.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -828,7 +871,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -848,7 +891,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_4_metro_cdmx/candelaria.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_4_metro_cdmx/candelaria.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -864,63 +907,46 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
 
         <se:Rule>
-          <se:Name>Centro Médico_1</se:Name>
+          <se:Name>Centro Médico</se:Name>
           <se:Description>
-            <se:Title>Centro Médico_1</se:Title>
+            <se:Title>Centro Médico</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Centro Médico_1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Centro Médico%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_9_metro_cdmx/CentroMedico.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_9_metro_cdmx/CentroMedico.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#bc84dc</se:SvgParameter>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-
-        <se:Rule>
-          <se:Name>Centro Médico_1_2</se:Name>
-          <se:Description>
-            <se:Title>Centro Médico_1_2</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Centro Médico_1_2</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#68bfcc</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -938,17 +964,25 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_8_metro_cdmx/CerroDeLaEstrella.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_8_metro_cdmx/CerroDeLaEstrella.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#abca22</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -959,83 +993,39 @@
             <se:Title>Chabacano</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Chabacano</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Chabacano%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_9_metro_cdmx/Chabacano.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_9_metro_cdmx/Chabacano.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#abca22</se:SvgParameter>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
 
-        <se:Rule>
-          <se:Name>Chabacano_1</se:Name>
-          <se:Description>
-            <se:Title>Chabacano_1</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Chabacano_1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#dc9463</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>7</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-
-        <se:Rule>
-          <se:Name>Chabacano_1_2</se:Name>
-          <se:Description>
-            <se:Title>Chabacano_1_2</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Chabacano_1_2</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#dd2562</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>7</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
 
         <se:Rule>
           <se:Name>Chapultepec</se:Name>
@@ -1066,29 +1056,40 @@
         </se:Rule>
 
         <se:Rule>
-          <se:Name>Chilpancingo_1_2</se:Name>
+          <se:Name>Chilpancingo</se:Name>
           <se:Description>
-            <se:Title>Chilpancingo_1_2</se:Title>
+            <se:Title>Chilpancingo</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Chilpancingo_1_2</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Chilpancingo%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_9_metro_cdmx/Chilpancingo.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_9_metro_cdmx/Chilpancingo.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#dd78c9</se:SvgParameter>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -1134,17 +1135,25 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_9_metro_cdmx/CiudadDeportiva.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_9_metro_cdmx/CiudadDeportiva.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#e1d443</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -1190,45 +1199,64 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_8_metro_cdmx/ConstitucionDe1917.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_8_metro_cdmx/ConstitucionDe1917.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#1f8bf0</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
 
         <se:Rule>
-          <se:Name>Constituyentes_1_2</se:Name>
+          <se:Name>Constituyentes</se:Name>
           <se:Description>
-            <se:Title>Constituyentes_1_2</se:Title>
+            <se:Title>Constituyentes</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Constituyentes_1_2</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Constituyentes%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_7_metro_cdmx/Constituyentes.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_7_metro_cdmx/Constituyentes.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#a85eec</se:SvgParameter>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -1248,7 +1276,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_5_metro_cdmx/consulado.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_5_metro_cdmx/consulado.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -1264,7 +1292,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -1284,7 +1312,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_5_metro_cdmx/consulado.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_5_metro_cdmx/consulado.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -1300,7 +1328,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -1362,29 +1390,40 @@
         </se:Rule>
 
         <se:Rule>
-          <se:Name>Coyuya_1</se:Name>
+          <se:Name>Coyuya</se:Name>
           <se:Description>
-            <se:Title>Coyuya_1</se:Title>
+            <se:Title>Coyuya</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Coyuya_1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Coyuya%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_8_metro_cdmx/Coyuya.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_8_metro_cdmx/Coyuya.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#76d1cb</se:SvgParameter>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -1516,7 +1555,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_6_metro_cdmx/deportivo_18_marzo.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_6_metro_cdmx/deportivo_18_marzo.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -1532,7 +1571,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -1552,7 +1591,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_6_metro_cdmx/deportivo_18_marzo.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_6_metro_cdmx/deportivo_18_marzo.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -1568,7 +1607,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -1642,17 +1681,25 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_8_metro_cdmx/Doctores.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_8_metro_cdmx/Doctores.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#c3ec8e</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -1672,7 +1719,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_5_metro_cdmx/Eduardo_Molina.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_5_metro_cdmx/Eduardo_Molina.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -1688,7 +1735,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -1722,73 +1769,40 @@
         </se:Rule>
 
         <se:Rule>
-          <se:Name>El Rosario_1</se:Name>
+          <se:Name>El Rosario</se:Name>
           <se:Description>
-            <se:Title>El Rosario_1</se:Title>
+            <se:Title>El Rosario</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>El Rosario_1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>El Rosario%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_6_metro_cdmx/rosario.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_7_metro_cdmx/ElRosario.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_6_metro_cdmx/rosario.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_7_metro_cdmx/ElRosario.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
               <se:Mark>
                 <se:WellKnownName>square</se:WellKnownName>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
+                </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-
-        <se:Rule>
-          <se:Name>El Rosario_1_2</se:Name>
-          <se:Description>
-            <se:Title>El Rosario_1_2</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>El Rosario_1_2</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <!--Parametric SVG-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_6_metro_cdmx/rosario.svg"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-              <!--Plain SVG fallback, no parameters-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_6_metro_cdmx/rosario.svg"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-              <!--Well known marker fallback-->
-              <se:Mark>
-                <se:WellKnownName>square</se:WellKnownName>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -1862,17 +1876,25 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_8_metro_cdmx/Escuadron201.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_8_metro_cdmx/Escuadron201.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#818ae2</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -1934,26 +1956,26 @@
         </se:Rule>
 
         <se:Rule>
-          <se:Name>Ferrerí­a</se:Name>
+          <se:Name>Ferrería</se:Name>
           <se:Description>
-            <se:Title>Ferrerí­a</se:Title>
+            <se:Title>Ferrería</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Ferrerí­a</ogc:Literal>
+              <ogc:Literal>Ferrería</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_6_metro_cdmx/ferreria.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_6_metro_cdmx/Ferreria.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_6_metro_cdmx/ferreria.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_6_metro_cdmx/Ferreria.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
@@ -1964,7 +1986,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -1984,7 +2006,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_4_metro_cdmx/fray_servando.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_4_metro_cdmx/fray_servando.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -2000,7 +2022,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -2039,52 +2061,35 @@
             <se:Title>Garibaldi</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Garibaldi</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Garibaldi%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_8_metro_cdmx/Garibaldi.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_8_metro_cdmx/Garibaldi.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#78b2e2</se:SvgParameter>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-
-        <se:Rule>
-          <se:Name>Garibaldi_1</se:Name>
-          <se:Description>
-            <se:Title>Garibaldi_1</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Garibaldi_1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#41e852</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -2130,17 +2135,25 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_A_metro_cdmx/Guelatao.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_A_metro_cdmx/Guelatao.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#71d05a</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -2216,7 +2229,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_5_metro_cdmx/Hangares.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_5_metro_cdmx/Hangares.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -2232,7 +2245,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -2406,73 +2419,40 @@
         </se:Rule>
 
         <se:Rule>
-          <se:Name>Instituto del Petróleo_1</se:Name>
+          <se:Name>Instituto del Petróleo</se:Name>
           <se:Description>
-            <se:Title>Instituto del Petróleo_1</se:Title>
+            <se:Title>Instituto del Petróleo</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Instituto del Petróleo_1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Instituto del Petr%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_5_metro_cdmx/instituto_petroleo.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_6_metro_cdmx/InstitutoDelPetroleo.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_5_metro_cdmx/instituto_petroleo.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_6_metro_cdmx/InstitutoDelPetroleo.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
               <se:Mark>
                 <se:WellKnownName>square</se:WellKnownName>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
+                </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-
-        <se:Rule>
-          <se:Name>Instituto del Petroleo</se:Name>
-          <se:Description>
-            <se:Title>Instituto del Petroleo</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Instituto del Petroleo</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <!--Parametric SVG-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_5_metro_cdmx/instituto_petroleo.svg"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-              <!--Plain SVG fallback, no parameters-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_5_metro_cdmx/instituto_petroleo.svg"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-              <!--Well known marker fallback-->
-              <se:Mark>
-                <se:WellKnownName>square</se:WellKnownName>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -2562,29 +2542,40 @@
         </se:Rule>
 
         <se:Rule>
-          <se:Name>Iztacalco_1</se:Name>
+          <se:Name>Iztacalco</se:Name>
           <se:Description>
-            <se:Title>Iztacalco_1</se:Title>
+            <se:Title>Iztacalco</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Iztacalco_1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Iztacalco%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_8_metro_cdmx/Iztacalco.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_8_metro_cdmx/Iztacalco.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#c85eda</se:SvgParameter>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -2602,17 +2593,25 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_8_metro_cdmx/Iztapalapa.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_8_metro_cdmx/Iztapalapa.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#63cec0</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -2623,68 +2622,35 @@
             <se:Title>Jamaica</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Jamaica</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Jamaica%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_4_metro_cdmx/jamaica.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_9_metro_cdmx/Jamaica.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_4_metro_cdmx/jamaica.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_9_metro_cdmx/Jamaica.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
               <se:Mark>
                 <se:WellKnownName>square</se:WellKnownName>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
+                </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-
-        <se:Rule>
-          <se:Name>Jamaica_1</se:Name>
-          <se:Description>
-            <se:Title>Jamaica_1</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Jamaica_1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <!--Parametric SVG-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_4_metro_cdmx/jamaica.svg"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-              <!--Plain SVG fallback, no parameters-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_4_metro_cdmx/jamaica.svg"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-              <!--Well known marker fallback-->
-              <se:Mark>
-                <se:WellKnownName>square</se:WellKnownName>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -2758,20 +2724,29 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_A_metro_cdmx/LaPaz.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_A_metro_cdmx/LaPaz.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#d7a968</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
+
 
         <se:Rule>
           <se:Name>La Raza_1_2</se:Name>
@@ -2788,7 +2763,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_5_metro_cdmx/la_raza.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_5_metro_cdmx/la_raza.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -2804,7 +2779,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -2824,7 +2799,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_5_metro_cdmx/la_raza.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_5_metro_cdmx/la_raza.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -2840,60 +2815,111 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
 
         <se:Rule>
-          <se:Name>La Viga_1</se:Name>
+          <se:Name>La Viga</se:Name>
           <se:Description>
-            <se:Title>La Viga_1</se:Title>
+            <se:Title>La Viga</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>La Viga_1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>La Viga%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_8_metro_cdmx/LaViga.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_8_metro_cdmx/LaViga.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#eb87cd</se:SvgParameter>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
+            </se:Graphic>
+          </se:PointSymbolizer>
+        </se:Rule>
+
+        
+        <se:Rule>
+          <se:Name>La Villa - Basílica</se:Name>
+          <se:Description>
+            <se:Title>La Villa - Basílica</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
+              <ogc:PropertyName>stop_name</ogc:PropertyName>
+              <ogc:Literal>La Villa - Bas%%</ogc:Literal>
+            </ogc:PropertyIsLike>
+          </ogc:Filter>
+          <se:PointSymbolizer>
+            <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_6_metro_cdmx/LaVilla.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_6_metro_cdmx/LaVilla.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
+              <se:Mark>
+                <se:WellKnownName>square</se:WellKnownName>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
+                </se:Fill>
+                <se:Stroke>
+                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
+                </se:Stroke>
+              </se:Mark>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
 
         <se:Rule>
-          <se:Name>La Villa - Basí­lica</se:Name>
+          <se:Name>Lázaro Cardenas</se:Name>
           <se:Description>
-            <se:Title>La Villa - Basí­lica</se:Title>
+            <se:Title>Lázaro Cardenas</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>La Villa - Basí­lica</ogc:Literal>
+              <ogc:Literal>Lázaro Cárdenas</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_6_metro_cdmx/la villa.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_9_metro_cdmx/LazaroCardenas.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_6_metro_cdmx/la villa.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_9_metro_cdmx/LazaroCardenas.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
@@ -2904,35 +2930,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-
-        <se:Rule>
-          <se:Name>Lázaro Cárdenas</se:Name>
-          <se:Description>
-            <se:Title>Lázaro Cárdenas</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Lázaro Cárdenas</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#e574d2</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -2980,7 +2978,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_6_metro_cdmx/lindavista.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_6_metro_cdmx/lindavista.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -2996,7 +2994,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -3042,17 +3040,25 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_A_metro_cdmx/LosReyes.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_A_metro_cdmx/LosReyes.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#4ad185</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -3086,73 +3092,40 @@
         </se:Rule>
 
         <se:Rule>
-          <se:Name>Martí­n Carrera_1</se:Name>
+          <se:Name>Martín Carrera</se:Name>
           <se:Description>
-            <se:Title>Martí­n Carrera_1</se:Title>
+            <se:Title>Martín Carrera</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Martí­n Carrera_1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Martín Carrera%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_6_metro_cdmx/martin_carrera.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_6_metro_cdmx/MartinCarrera.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_6_metro_cdmx/martin_carrera.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_6_metro_cdmx/MartinCarrera.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
               <se:Mark>
                 <se:WellKnownName>square</se:WellKnownName>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
+                </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-
-        <se:Rule>
-          <se:Name>Martí­n Carrera_1_2</se:Name>
-          <se:Description>
-            <se:Title>Martí­n Carrera_1_2</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Martí­n Carrera_1_2</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <!--Parametric SVG-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_6_metro_cdmx/martin_carrera.svg"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-              <!--Plain SVG fallback, no parameters-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_6_metro_cdmx/martin_carrera.svg"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-              <!--Well known marker fallback-->
-              <se:Mark>
-                <se:WellKnownName>square</se:WellKnownName>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -3256,7 +3229,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_5_metro_cdmx/Misterios.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_5_metro_cdmx/Misterios.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -3272,7 +3245,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -3283,60 +3256,44 @@
             <se:Title>Mixcoac</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Mixcoac</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Mixcoac%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_7_metro_cdmx/Mixcoac.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_7_metro_cdmx/Mixcoac.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#aaee44</se:SvgParameter>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
 
+        
         <se:Rule>
-          <se:Name>Mixcoac_1</se:Name>
+          <se:Name>Mixiuhca</se:Name>
           <se:Description>
-            <se:Title>Mixcoac_1</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Mixcoac_1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#78c955</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>7</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-
-        <se:Rule>
-          <se:Name>Mixhuca</se:Name>
-          <se:Description>
-            <se:Title>Mixhuca</se:Title>
+            <se:Title>Mixiuhca</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
@@ -3346,17 +3303,25 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_9_metro_cdmx/Mixiuhca.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_9_metro_cdmx/Mixiuhca.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#7ae8ed</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -3404,7 +3369,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_4_metro_cdmx/Morelos.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_4_metro_cdmx/Morelos.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -3420,7 +3385,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -3440,7 +3405,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_4_metro_cdmx/Morelos.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_4_metro_cdmx/Morelos.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -3456,7 +3421,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -3616,7 +3581,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_6_metro_cdmx/norte_45.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_6_metro_cdmx/norte_45.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -3632,7 +3597,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -3650,17 +3615,25 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_8_metro_cdmx/Obrera.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_8_metro_cdmx/Obrera.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#0e60ed</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -3694,26 +3667,26 @@
         </se:Rule>
 
         <se:Rule>
-          <se:Name>Oceaní­a</se:Name>
+          <se:Name>Oceanía</se:Name>
           <se:Description>
-            <se:Title>Oceaní­a</se:Title>
+            <se:Title>Oceanía</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Oceaní­a</ogc:Literal>
+              <ogc:Literal>Oceanía</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_5_metro_cdmx/Oceania1.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_5_metro_cdmx/Oceania.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_5_metro_cdmx/Oceania1.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_5_metro_cdmx/Oceania.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
@@ -3724,7 +3697,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -3744,7 +3717,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_5_metro_cdmx/Oceania1.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_5_metro_cdmx/Oceania1.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -3760,7 +3733,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -3864,7 +3837,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_5_metro_cdmx/Pantitlan.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_5_metro_cdmx/Pantitlan.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -3880,7 +3853,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -3900,7 +3873,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_5_metro_cdmx/Pantitlan.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_5_metro_cdmx/Pantitlan.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -3916,7 +3889,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -3936,7 +3909,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_5_metro_cdmx/Pantitlan.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_5_metro_cdmx/Pantitlan.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -3952,7 +3925,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -3972,7 +3945,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_5_metro_cdmx/Pantitlan.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_5_metro_cdmx/Pantitlan.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -3988,7 +3961,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -4022,29 +3995,40 @@
         </se:Rule>
 
         <se:Rule>
-          <se:Name>Patriotismo_1_2</se:Name>
+          <se:Name>Patriotismo</se:Name>
           <se:Description>
-            <se:Title>Patriotismo_1_2</se:Title>
+            <se:Title>Patriotismo</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Patriotismo_1_2</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Patriotismo%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_9_metro_cdmx/Patriotismo.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_9_metro_cdmx/Patriotismo.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#605ee4</se:SvgParameter>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -4062,17 +4046,25 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_A_metro_cdmx/PenonViejo.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_A_metro_cdmx/PenonViejo.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#b9ea3b</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -4202,17 +4194,25 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_7_metro_cdmx/Polanco.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_7_metro_cdmx/Polanco.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#d87fc1</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -4232,7 +4232,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_5_metro_cdmx/politecnico.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_5_metro_cdmx/politecnico.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -4248,7 +4248,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -4352,7 +4352,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_9_metro_cdmx/Puebla.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_9_metro_cdmx/Puebla.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -4431,29 +4431,37 @@
         </se:Rule>
 
         <se:Rule>
-          <se:Name>Refinerí­a</se:Name>
+          <se:Name>Refinería</se:Name>
           <se:Description>
-            <se:Title>Refinerí­a</se:Title>
+            <se:Title>Refinería</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Refinerí­a</ogc:Literal>
+              <ogc:Literal>Refinería</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_7_metro_cdmx/Refineria.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_7_metro_cdmx/Refineria.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#c9a15c</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -4520,55 +4528,39 @@
             <se:Title>Salto del Agua</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Salto del Agua</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Salto del Agua%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_8_metro_cdmx/SaltoDelAgua.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_8_metro_cdmx/SaltoDelAgua.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#88e366</se:SvgParameter>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
 
-        <se:Rule>
-          <se:Name>Salto del Agua_1</se:Name>
-          <se:Description>
-            <se:Title>Salto del Agua_1</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Salto del Agua_1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#ae7ceb</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>7</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
 
         <se:Rule>
           <se:Name>San Andrés Tomatlán</se:Name>
@@ -4611,17 +4603,25 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_7_metro_cdmx/SanAntonio.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_7_metro_cdmx/SanAntonio.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#c43dcd</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -4683,29 +4683,37 @@
         </se:Rule>
 
         <se:Rule>
-          <se:Name>San Joaquí­n</se:Name>
+          <se:Name>San Joaquín</se:Name>
           <se:Description>
-            <se:Title>San Joaquí­n</se:Title>
+            <se:Title>San Joaquín</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>San Joaquí­n</ogc:Literal>
+              <ogc:Literal>San Joaquín</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_7_metro_cdmx/SanJoaquin.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_7_metro_cdmx/SanJoaquin.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#b9d479</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -4723,17 +4731,25 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_8_metro_cdmx/SanJuanDeLetran.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_8_metro_cdmx/SanJuanDeLetran.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#c2e557</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -4807,42 +4823,14 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#e0aa15</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>7</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-
-        <se:Rule>
-          <se:Name>Santa Anita</se:Name>
-          <se:Description>
-            <se:Title>Santa Anita</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Santa Anita</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_4_metro_cdmx/Santa_Anita.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_7_metro_cdmx/SanPedroDeLosPinos.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_4_metro_cdmx/Santa_Anita.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_7_metro_cdmx/SanPedroDeLosPinos.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
@@ -4853,35 +4841,46 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
 
         <se:Rule>
-          <se:Name>Santa Anita_1</se:Name>
+          <se:Name>Santa Anita</se:Name>
           <se:Description>
-            <se:Title>Santa Anita_1</se:Title>
+            <se:Title>Santa Anita</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Santa Anita_1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Santa Anita%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_8_metro_cdmx/SantaAnita.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_8_metro_cdmx/SantaAnita.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#caa80e</se:SvgParameter>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -4899,17 +4898,25 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_A_metro_cdmx/SantaMarta.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_A_metro_cdmx/SantaMarta.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#4d7bef</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -4948,82 +4955,29 @@
             <se:Title>Tacuba</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Tacuba</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#d43f96</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>7</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-
-        <se:Rule>
-          <se:Name>Tacuba_1</se:Name>
-          <se:Description>
-            <se:Title>Tacuba_1</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Tacuba_1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#2228c9</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>7</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-
-        <se:Rule>
-          <se:Name>Tacubaya_1</se:Name>
-          <se:Description>
-            <se:Title>Tacubaya_1</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Tacubaya_1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Tacuba%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_9_metro_cdmx/Tacubaya.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_7_metro_cdmx/Tacuba.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_9_metro_cdmx/Tacubaya.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_7_metro_cdmx/Tacuba.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
               <se:Mark>
                 <se:WellKnownName>square</se:WellKnownName>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
+                </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
@@ -5034,68 +4988,36 @@
           </se:PointSymbolizer>
         </se:Rule>
 
-        <se:Rule>
-          <se:Name>Tacubaya_1_2</se:Name>
-          <se:Description>
-            <se:Title>Tacubaya_1_2</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Tacubaya_1_2</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <!--Parametric SVG-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_9_metro_cdmx/Tacubaya.svg"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-              <!--Plain SVG fallback, no parameters-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_9_metro_cdmx/Tacubaya.svg"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-              <!--Well known marker fallback-->
-              <se:Mark>
-                <se:WellKnownName>square</se:WellKnownName>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>20</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
 
         <se:Rule>
-          <se:Name>Tacubaya_1_3</se:Name>
+          <se:Name>Tacubaya</se:Name>
           <se:Description>
-            <se:Title>Tacubaya_1_3</se:Title>
+            <se:Title>Tacubaya</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Tacubaya_1_3</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Tacubaya%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_9_metro_cdmx/Tacubaya.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_7_metro_cdmx/Tacubaya.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_9_metro_cdmx/Tacubaya.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_7_metro_cdmx/Tacubaya.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Well known marker fallback-->
               <se:Mark>
                 <se:WellKnownName>square</se:WellKnownName>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
+                </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
@@ -5121,7 +5043,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_4_metro_cdmx/Talisman.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_4_metro_cdmx/Talisman.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -5137,7 +5059,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -5199,29 +5121,40 @@
         </se:Rule>
 
         <se:Rule>
-          <se:Name>Tepalcates_1</se:Name>
+          <se:Name>Tepalcates</se:Name>
           <se:Description>
-            <se:Title>Tepalcates_1</se:Title>
+            <se:Title>Tepalcates</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsLike wildCard="%" singleChar="_" matchCase="false" escape="\">
               <ogc:PropertyName>stop_name</ogc:PropertyName>
-              <ogc:Literal>Tepalcates_1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
+              <ogc:Literal>Tepalcates%</ogc:Literal>
+            </ogc:PropertyIsLike>
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_A_metro_cdmx/Tepalcates.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_A_metro_cdmx/Tepalcates.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#5ed0a4</se:SvgParameter>
+                  <se:SvgParameter name="fill">#85b66f</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -5269,7 +5202,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_5_metro_cdmx/Termina_area.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_5_metro_cdmx/Termina_area.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -5285,7 +5218,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -5333,7 +5266,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_6_metro_cdmx/tezozomoc.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_6_metro_cdmx/tezozomoc.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -5349,7 +5282,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -5451,20 +5384,29 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_8_metro_cdmx/UAM-I.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_8_metro_cdmx/UAM-I.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#4d58f0</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
+
 
         <se:Rule>
           <se:Name>Universidad</se:Name>
@@ -5509,7 +5451,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_5_metro_cdmx/Valle_Gomez.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_5_metro_cdmx/Valle_Gomez.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -5525,7 +5467,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -5545,7 +5487,7 @@
             <se:Graphic>
               <!--Parametric SVG-->
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="/usr/share/qgis/svg//metro/linea_6_metro_cdmx/vallejo.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_6_metro_cdmx/vallejo.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <!--Plain SVG fallback, no parameters-->
@@ -5561,7 +5503,7 @@
                   <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>11</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -5579,17 +5521,25 @@
           </ogc:Filter>
           <se:PointSymbolizer>
             <se:Graphic>
+              <!--Parametric SVG-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="RUTA_DE_TU_PC_OBTENIDA_CON_QGIS//metro/linea_9_metro_cdmx/Velodromo.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Plain SVG fallback, no parameters-->
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="metro/linea_9_metro_cdmx/Velodromo.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>circle</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#9b79c9</se:SvgParameter>
-                </se:Fill>
+                <se:WellKnownName>square</se:WellKnownName>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.20000000000000001</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>7</se:Size>
+              <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
